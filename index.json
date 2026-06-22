@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.4",
+    "latestVersion": "0.1.5",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.4",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.4/PhysicalWorldToolbox-0.1.4-win-x64.zip",
-    "sha256": "9965568A0AAD806586678BA10AB6C065325B749E898336A359DC13B2D06EC72E",
-    "size": 44285361,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.5",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.5/PhysicalWorldToolbox-0.1.5-win-x64.zip",
+    "sha256": "5BE9C1F03D4EA1685D100E9EF416FC1D4C7B3712BE194D932A667332BCDCB2C1",
+    "size": 44287927,
     "changelog": [
-      "将默认 registry 地址迁移到 github.com/raw/refs/heads/main，绕开 raw.githubusercontent.com/main 的旧缓存问题。",
-      "旧 raw registry 地址会在启动时自动迁移到新地址。",
-      "包含 v0.1.3 的更新器环境清理修复。"
+      "后台检查更新改为并发加载工具清单，减少等待时间。",
+      "左侧 Version 下方增加更新状态与进度显示。",
+      "更新源默认切回 raw.githubusercontent.com，减少 GitHub raw 跳转耗时。"
     ]
   },
   "tools": [
