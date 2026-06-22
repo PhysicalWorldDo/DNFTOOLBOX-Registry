@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_nba_assistant",
+  "name": "DNF NBA 图色助手",
+  "category": "游戏工具",
+  "description": "DNF NBA 活动图色识别与按键辅助工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": true,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NBA-Assistant/releases/download/v1.0.0/dnf_nba_assistant-1.0.0-win-x64.zip",
+      "sha256": "85fffdb5cece014d9e132c85ca9cad63853f5b49d5e531b8adfbc61958d52e21",
+      "size": 29631297,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [
+    "screen_capture",
+    "keyboard"
+  ],
+  "tags": [
+    "活动",
+    "图色识别",
+    "按键"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

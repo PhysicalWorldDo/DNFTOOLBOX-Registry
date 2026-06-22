@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_img_photoshop_plugin",
+  "name": "DNF IMG Photoshop 插件",
+  "category": "插件工具",
+  "description": "Photoshop DNF IMG 格式插件及安装脚本。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": true,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Photoshop-Plugin/releases/download/v1.0.0/dnf_img_photoshop_plugin-1.0.0-win-x64.zip",
+      "sha256": "ef696d2a35576ebc83699ce166a0188c3d2c4a0da333f1dfaf2addfacfb5f428",
+      "size": 162586,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "Photoshop",
+    "IMG",
+    "插件"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

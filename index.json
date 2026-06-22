@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "toolbox": {
+    "latestVersion": "0.1.0",
+    "minSupportedVersion": "0.1.0"
+  },
+  "tools": [
+    {
+      "id": "neople_video_codec_tool",
+      "name": "视频解密加密工具",
+      "category": "资源工具",
+      "manifestUrl": "tools/neople_video_codec_tool.json"
+    },
+    {
+      "id": "dnf_music_detect",
+      "name": "DNF 音乐检测工具",
+      "category": "音频工具",
+      "manifestUrl": "tools/dnf_music_detect.json"
+    },
+    {
+      "id": "dnf_nba_assistant",
+      "name": "DNF NBA 图色助手",
+      "category": "游戏工具",
+      "manifestUrl": "tools/dnf_nba_assistant.json"
+    },
+    {
+      "id": "dnf_img_photoshop_plugin",
+      "name": "DNF IMG Photoshop 插件",
+      "category": "插件工具",
+      "manifestUrl": "tools/dnf_img_photoshop_plugin.json"
+    },
+    {
+      "id": "dnf_img_replacer",
+      "name": "DNF IMG 帧替换工具",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_img_replacer.json"
+    },
+    {
+      "id": "dnf_ui_visual_editor",
+      "name": "DNF UI 可视编辑器",
+      "category": "UI工具",
+      "manifestUrl": "tools/dnf_ui_visual_editor.json"
+    },
+    {
+      "id": "one_step_run",
+      "name": "一键奔跑工具",
+      "category": "游戏工具",
+      "manifestUrl": "tools/one_step_run.json"
+    },
+    {
+      "id": "dnf_palette_prism",
+      "name": "阿拉德调色",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_palette_prism.json"
+    },
+    {
+      "id": "dnf_palette_blender",
+      "name": "Blender 渲染",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_palette_blender.json"
+    },
+    {
+      "id": "dnf_palette_recolor",
+      "name": "指定色替换",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_palette_recolor.json"
+    },
+    {
+      "id": "dnf_palette_buff",
+      "name": "BUFF 替换",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_palette_buff.json"
+    },
+    {
+      "id": "dnf_palette_ai_search",
+      "name": "全库秒搜与识图训练",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_palette_ai_search.json"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_img_replacer",
+  "name": "DNF IMG 帧替换工具",
+  "category": "图像工具",
+  "description": "替换 DNF IMG 帧图片并重新写入 NPK 的可视化工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Replacer/releases/download/v1.0.0/dnf_img_replacer-1.0.0-win-x64.zip",
+      "sha256": "e73dddb016a37d43d46e1f989675fe3c405aaad0397d6b04ff95b5812c56f248",
+      "size": 33246859,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "IMG",
+    "替换",
+    "NPK"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

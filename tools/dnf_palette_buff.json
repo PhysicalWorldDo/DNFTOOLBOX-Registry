@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_palette_buff",
+  "name": "BUFF 替换",
+  "category": "图像工具",
+  "description": "BUFF 动画序列和 BK2 隐藏帧构建工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff/releases/download/v1.0.0/dnf_palette_buff-1.0.0-win-x64.zip",
+      "sha256": "6b57983ca8122ecc1b8237134878d51b39009b857fad1c7d62538dd9130cd762",
+      "size": 15453225,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "幻色棱镜",
+    "图像",
+    "NPK"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_ui_visual_editor",
+  "name": "DNF UI 可视编辑器",
+  "category": "UI工具",
+  "description": "DNF UI 素材可视化组合、图层布局与预览工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-UI-Visual-Editor/releases/download/v1.0.0/dnf_ui_visual_editor-1.0.0-win-x64.zip",
+      "sha256": "01ffed85e9245c0c7186e6580fc2f3597a0839b54c1ed05c9b4689f66ff42c6d",
+      "size": 29658,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "UI",
+    "布局",
+    "可视化"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

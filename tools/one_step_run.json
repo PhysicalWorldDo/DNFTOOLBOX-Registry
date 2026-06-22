@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "one_step_run",
+  "name": "一键奔跑工具",
+  "category": "游戏工具",
+  "description": "DNF 一键奔跑与按键触发辅助工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-One-Step-Run/releases/download/v1.0.0/one_step_run-1.0.0-win-x64.zip",
+      "sha256": "e4cd5c4a0c960b4159e232712fbc1f97233d30a9774ca1b4b258eeecc31d0aef",
+      "size": 19643159,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [
+    "keyboard"
+  ],
+  "tags": [
+    "连发",
+    "按键",
+    "辅助"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

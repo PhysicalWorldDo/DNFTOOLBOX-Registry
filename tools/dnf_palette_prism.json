@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_palette_prism",
+  "name": "阿拉德调色",
+  "category": "图像工具",
+  "description": "DNF NPK / IMG 调色盘与整体换色工具。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-22",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism/releases/download/v1.0.0/dnf_palette_prism-1.0.0-win-x64.zip",
+      "sha256": "299fc7ac8b9f550aa72f5271a238a4b2f4672dab74ca8b14320ec44e1b05f893",
+      "size": 15453235,
+      "changelog": [
+        "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "幻色棱镜",
+    "图像",
+    "NPK"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
