@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.2",
+    "latestVersion": "0.1.3",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.2",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.2/PhysicalWorldToolbox-0.1.2-win-x64.zip",
-    "sha256": "A4C5F41E14886D4F07E962B058BAE095D4A546CBA11D67C37568D02CA62A0854",
-    "size": 44285304,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.3",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.3/PhysicalWorldToolbox-0.1.3-win-x64.zip",
+    "sha256": "A069C11953A2901CF4A086CFD7B930BE37961D548CC0E7E1AE185CA32A0AF65D",
+    "size": 44285590,
     "changelog": [
-      "修复自动更新后重启新版时，PyInstaller onefile 继承旧临时目录导致 Failed to load Python DLL 的问题。",
-      "更新器启动新版前会重置 PyInstaller 环境，让新版作为全新实例解包运行。"
+      "进一步修复自动更新后重启新版时，PyInstaller onefile 继承旧临时目录导致 Failed to load Python DLL 的问题。",
+      "启动独立更新脚本时清理 _PYI_* 私有环境，并设置 PYINSTALLER_RESET_ENVIRONMENT=1。",
+      "更新脚本重启新版前再次清理 _PYI_*，防止旧 _MEI 路径传给新版 exe。"
     ]
   },
   "tools": [
