@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.3",
+    "latestVersion": "0.1.4",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.3",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.3/PhysicalWorldToolbox-0.1.3-win-x64.zip",
-    "sha256": "A069C11953A2901CF4A086CFD7B930BE37961D548CC0E7E1AE185CA32A0AF65D",
-    "size": 44285590,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.4",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.4/PhysicalWorldToolbox-0.1.4-win-x64.zip",
+    "sha256": "9965568A0AAD806586678BA10AB6C065325B749E898336A359DC13B2D06EC72E",
+    "size": 44285361,
     "changelog": [
-      "进一步修复自动更新后重启新版时，PyInstaller onefile 继承旧临时目录导致 Failed to load Python DLL 的问题。",
-      "启动独立更新脚本时清理 _PYI_* 私有环境，并设置 PYINSTALLER_RESET_ENVIRONMENT=1。",
-      "更新脚本重启新版前再次清理 _PYI_*，防止旧 _MEI 路径传给新版 exe。"
+      "将默认 registry 地址迁移到 github.com/raw/refs/heads/main，绕开 raw.githubusercontent.com/main 的旧缓存问题。",
+      "旧 raw registry 地址会在启动时自动迁移到新地址。",
+      "包含 v0.1.3 的更新器环境清理修复。"
     ]
   },
   "tools": [
