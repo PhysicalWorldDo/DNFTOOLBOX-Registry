@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.1",
+    "latestVersion": "0.1.2",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.1",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.1/PhysicalWorldToolbox-0.1.1-win-x64.zip",
-    "sha256": "5984AD20797FD829DD5E40A759FB58E2BEE73C185B2D28EB8C5B5BEE45278456",
-    "size": 44284759,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.2",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.2/PhysicalWorldToolbox-0.1.2-win-x64.zip",
+    "sha256": "A4C5F41E14886D4F07E962B058BAE095D4A546CBA11D67C37568D02CA62A0854",
+    "size": 44285304,
     "changelog": [
-      "修复旧配置指向本地示例索引时，打包版启动后只显示关于页的问题。",
-      "后台加载远端工具完成后，自动切换到工具分类页。",
-      "右键复制项目地址只使用工具 manifest 中的 projectUrl。"
+      "修复自动更新后重启新版时，PyInstaller onefile 继承旧临时目录导致 Failed to load Python DLL 的问题。",
+      "更新器启动新版前会重置 PyInstaller 环境，让新版作为全新实例解包运行。"
     ]
   },
   "tools": [
