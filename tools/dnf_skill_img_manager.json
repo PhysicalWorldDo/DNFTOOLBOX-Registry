@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_skill_img_manager",
+  "name": "DNF 角色技能 IMG 管理器",
+  "category": "角色工具",
+  "description": "查看 DNF 角色技能 IMG 数据，并按技能整理关联 IMG 导出 NPK。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager",
+  "latest": {
+    "stable": "1.1.1"
+  },
+  "versions": [
+    {
+      "version": "1.1.1",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager/releases/download/v1.1.1/dnf_skill_img_manager-1.1.1-win-x64.zip",
+      "sha256": "7ca4ae913a15b69da381c72a21d992cafd334c09b219d1f56c92fbda6f758456",
+      "size": 168356010,
+      "changelog": [
+        "优化技能页布局：技能图谱收窄，中间独立显示 IMG 列表，右侧保留大尺寸预览",
+        "恢复技能图标悬停名称提示",
+        "技能进化页补充基础技能和进化选项图标",
+        "IMG 列表使用暗色样式并隐藏 NPK 文件名，动画预览默认暂停",
+        "保留按技能整理 IMG 导出 NPK"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "技能",
+    "IMG",
+    "NPK",
+    "导出"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
