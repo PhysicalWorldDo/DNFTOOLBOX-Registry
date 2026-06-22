@@ -16,7 +16,7 @@
       "channel": "stable",
       "releaseDate": "2026-06-22",
       "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Neople-Video-Codec-Tool/releases/download/v1.0.0/neople_video_codec_tool-1.0.0-win-x64.zip",
-      "sha256": "24b5154bf1e0eeaef2a1611873b96e96ccfbe0d7b70c3ceddb882cd387f8df4d",
+      "sha256": "eb0b73494172263198340d6608e16f2d04aac0fb59ee5e2b08535f6e30618fb7",
       "size": 36997474,
       "changelog": [
         "整理为物理世界的工具箱标准包"
