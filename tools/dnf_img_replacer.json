@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Replacer",
   "latest": {
-    "stable": "1.0.0"
+    "stable": "1.0.1"
   },
   "versions": [
     {
@@ -21,6 +21,18 @@
       "size": 33246859,
       "changelog": [
         "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.1",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Replacer/releases/download/v1.0.1/dnf_img_replacer-1.0.1-win-x64.zip",
+      "sha256": "dc75bd9da61c42e76a86cd670415a8fc3f3ff794b6bc5bca549584cee970f751",
+      "size": 33247053,
+      "changelog": [
+        "Rebuilt as executable release package."
       ],
       "minToolboxVersion": "0.1.0"
     }

@@ -9,7 +9,7 @@
   "needAdmin": true,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NBA-Assistant",
   "latest": {
-    "stable": "1.0.0"
+    "stable": "1.0.1"
   },
   "versions": [
     {
@@ -21,6 +21,18 @@
       "size": 29631297,
       "changelog": [
         "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.1",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NBA-Assistant/releases/download/v1.0.1/dnf_nba_assistant-1.0.1-win-x64.zip",
+      "sha256": "e41871a8bba28e63b614557ce5fe0a87eaa74aeed4d1f1e1ea650bdd6745ef0c",
+      "size": 29631489,
+      "changelog": [
+        "Rebuilt as executable release package."
       ],
       "minToolboxVersion": "0.1.0"
     }

@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-One-Step-Run",
   "latest": {
-    "stable": "1.0.0"
+    "stable": "1.0.1"
   },
   "versions": [
     {
@@ -21,6 +21,18 @@
       "size": 19643159,
       "changelog": [
         "整理为物理世界的工具箱标准包"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.1",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-One-Step-Run/releases/download/v1.0.1/one_step_run-1.0.1-win-x64.zip",
+      "sha256": "72d289c70587902fc5d7f53a4702beaa19e0afaa5c6051651d4cc3baa3260871",
+      "size": 19643354,
+      "changelog": [
+        "Rebuilt as executable release package."
       ],
       "minToolboxVersion": "0.1.0"
     }
