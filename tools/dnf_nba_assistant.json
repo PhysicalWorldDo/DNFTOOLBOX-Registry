@@ -7,6 +7,7 @@
   "icon": "",
   "entry": "bin/run.cmd",
   "needAdmin": true,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NBA-Assistant",
   "latest": {
     "stable": "1.0.0"
   },

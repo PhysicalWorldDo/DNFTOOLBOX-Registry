@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.0",
-    "minSupportedVersion": "0.1.0"
+    "latestVersion": "0.1.1",
+    "minSupportedVersion": "0.1.0",
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.1",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.1/PhysicalWorldToolbox-0.1.1-win-x64.zip",
+    "sha256": "5984AD20797FD829DD5E40A759FB58E2BEE73C185B2D28EB8C5B5BEE45278456",
+    "size": 44284759,
+    "changelog": [
+      "修复旧配置指向本地示例索引时，打包版启动后只显示关于页的问题。",
+      "后台加载远端工具完成后，自动切换到工具分类页。",
+      "右键复制项目地址只使用工具 manifest 中的 projectUrl。"
+    ]
   },
   "tools": [
     {
