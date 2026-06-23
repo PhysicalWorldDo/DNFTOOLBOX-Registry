@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.6",
+    "latestVersion": "0.1.7",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.6",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.6/PhysicalWorldToolbox-0.1.6-win-x64.zip",
-    "sha256": "DB7480ABDEACD6897CDF841BFB00B2912CBB56DB0358F515338ED346E12C66B6",
-    "size": 44537693,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.7",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.7/PhysicalWorldToolbox-0.1.7-win-x64.zip",
+    "sha256": "D6583AEDFFEEB081018B0FE8C1D3C7D9F2835E8017DB8A753E5502858D4CA751",
+    "size": 44545250,
     "changelog": [
-      "关于页新增赞助支持区域，显示微信和支付宝赞助二维码。",
-      "README 同步加入赞助二维码说明。"
+      "新增 GitHub 公共加速代理配置，检查更新和下载安装包会自动按代理列表回退。",
+      "右上角菜单新增下载代理设置，支持启用、关闭、修改代理站和恢复默认。",
+      "启动时不再自动检查更新，需要时可从右上角菜单手动检查。"
     ]
   },
   "tools": [
