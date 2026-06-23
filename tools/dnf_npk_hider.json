@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_npk_hider",
+  "name": "一键隐藏 NPK",
+  "category": "资源工具",
+  "description": "批量生成同名透明 IMG NPK，用于隐藏原 NPK 的可见内容。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-Hider",
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-Hider/releases/download/v1.0.0/dnf_npk_hider-1.0.0-win-x64.zip",
+      "sha256": "016560b5708f1434bd577c48e55e4d265b132e5f37d98c857b9822b60573cb7c",
+      "size": 10925018,
+      "changelog": [
+        "按原 NPK 条目名生成同名透明 IMG NPK。",
+        "默认导出文件名使用原文件名前加 %。",
+        "提供 GUI、命令行和 smoke-test 验证入口。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "NPK",
+    "透明",
+    "隐藏"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
