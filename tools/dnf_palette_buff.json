@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.2"
   },
   "versions": [
     {
@@ -33,6 +33,18 @@
       "size": 33589224,
       "changelog": [
         "Rebuilt as executable release package."
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff/releases/download/v1.0.2/dnf_palette_buff-1.0.2-win-x64.zip",
+      "sha256": "3485ea20ef6b465bc7de5ed3b29acba6963bf0adafa614d2977a2be48feeb4d4",
+      "size": 33618279,
+      "changelog": [
+        "?? exe ?????????????????????"
       ],
       "minToolboxVersion": "0.1.0"
     }

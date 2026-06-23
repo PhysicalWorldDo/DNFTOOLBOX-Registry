@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.2"
   },
   "versions": [
     {
@@ -33,6 +33,18 @@
       "size": 33738428,
       "changelog": [
         "Rebuilt as executable release package."
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism/releases/download/v1.0.2/dnf_palette_prism-1.0.2-win-x64.zip",
+      "sha256": "e3bf3ae2eaaf5358af302acff9e8a1d2686a24eaa586b8993f7ddaf8e1f0f1bf",
+      "size": 33782490,
+      "changelog": [
+        "?? exe ?????????????????????"
       ],
       "minToolboxVersion": "0.1.0"
     }

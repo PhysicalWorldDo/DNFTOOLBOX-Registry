@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Blender",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.2"
   },
   "versions": [
     {
@@ -33,6 +33,18 @@
       "size": 33738885,
       "changelog": [
         "Rebuilt as executable release package."
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Blender/releases/download/v1.0.2/dnf_palette_blender-1.0.2-win-x64.zip",
+      "sha256": "c73d794fbde0f2d875177410ee2660da5ba35c02dafc838df44d08d7f7fd86af",
+      "size": 33761283,
+      "changelog": [
+        "?? exe ?????????????????????"
       ],
       "minToolboxVersion": "0.1.0"
     }
