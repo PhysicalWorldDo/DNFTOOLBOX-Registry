@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.7",
+    "latestVersion": "0.1.8",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.7",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.7/PhysicalWorldToolbox-0.1.7-win-x64.zip",
-    "sha256": "D6583AEDFFEEB081018B0FE8C1D3C7D9F2835E8017DB8A753E5502858D4CA751",
-    "size": 44545250,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.8",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.8/PhysicalWorldToolbox-0.1.8-win-x64.zip",
+    "sha256": "6931F794E6FA64CE1141F9C08D937CBBB91437C837E2C13A40B87EB22D80C78E",
+    "size": 45027063,
     "changelog": [
-      "新增 GitHub 公共加速代理配置，检查更新和下载安装包会自动按代理列表回退。",
-      "右上角菜单新增下载代理设置，支持启用、关闭、修改代理站和恢复默认。",
-      "启动时不再自动检查更新，需要时可从右上角菜单手动检查。"
+      "?? GitHub ?????????????????????????",
+      "???????????????????????????????",
+      "??????? downloads ???? cache ????????????? self-update ???"
     ]
   },
   "tools": [
