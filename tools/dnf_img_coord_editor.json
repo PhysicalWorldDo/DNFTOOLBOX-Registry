@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_img_coord_editor",
+  "name": "DNF IMG 坐标编辑器",
+  "category": "图像工具",
+  "description": "拖动调整 DNF IMG 帧 x/y 坐标，并以原位补丁方式保存新 NPK。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Coord-Editor",
+  "latest": {
+    "stable": "0.1.0"
+  },
+  "versions": [
+    {
+      "version": "0.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-IMG-Coord-Editor/releases/download/v0.1.0/dnf_img_coord_editor-0.1.0-win-x64.zip",
+      "sha256": "a30507168015ea5ffc98061979a44c9037fb8b55861442516315fa5705637ec9",
+      "size": 18097685,
+      "changelog": [
+        "新增 IMG 帧坐标可视化编辑器",
+        "支持原始位置半透明对比、单帧拖动、数字输入、选中帧批量移动和全体移动",
+        "移动后自动保存为同目录百分号前缀 NPK，并额外保存原始坐标备份 JSON",
+        "IMG 修改后在列表中高亮标记，便于确认已编辑条目",
+        "新增边缘锁定开关，开启后坐标不会移动到负数",
+        "保存时只 patch IMG 帧头 x/y 字段，不重编码像素数据"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "IMG",
+    "NPK",
+    "坐标",
+    "帧"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

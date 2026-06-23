@@ -90,6 +90,12 @@
       "name": "DNF 角色技能 IMG 管理器",
       "category": "角色工具",
       "manifestUrl": "tools/dnf_skill_img_manager.json"
+    },
+    {
+      "id": "dnf_img_coord_editor",
+      "name": "DNF IMG 坐标编辑器",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_img_coord_editor.json"
     }
   ]
 }
