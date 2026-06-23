@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff",
   "latest": {
-    "stable": "1.0.9"
+    "stable": "1.0.10"
   },
   "versions": [
     {
@@ -132,6 +132,19 @@
         "特效边框改为自动贴合每帧实际裁剪/有效矩形大小。"
       ],
       "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.10",
+      "channel": "stable",
+      "releaseDate": "2026-06-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff/releases/download/v1.0.10/dnf_palette_buff-1.0.10-win-x64.zip",
+      "sha256": "5199d4d09e75b39c9f447cdaf105236a88e5b1f7b4aa1a5919f10566f883509e",
+      "size": 66477554,
+      "changelog": [
+        "修复 1.0.9 打包缺少 moviepy/imageio 元数据导致 MP4 导入提示缺库的问题。",
+        "新增打包后视频依赖 smoke 验证，确认 moviepy 和 ffmpeg 均可用。"
+      ],
+      "minToolboxVersion": "0.1.0"
     }
   ],
   "permissions": [],
@@ -141,5 +154,7 @@
     "NPK"
   ],
   "status": "active",
-  "blockedVersions": []
+  "blockedVersions": [
+    "1.0.9"
+  ]
 }
