@@ -17,12 +17,13 @@
       "channel": "stable",
       "releaseDate": "2026-06-24",
       "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-Protector/releases/download/v1.0.0/dnf_npk_protector-1.0.0-win-x64.zip",
-      "sha256": "20f884e5f2b37c3554276bdd963937a3edba208f1a0bce8ad732f6d78d7b56c3",
-      "size": 10981366,
+      "sha256": "96947b773a6aad22bc2d7f2e3d4af19df231796e15c6675860b467e632d6536c",
+      "size": 10977692,
       "changelog": [
         "默认启用 IMG 帧表高位保护：保留游戏低位读取结果，干扰常见外部工具按 32 位字段解析。",
         "不再默认堆大量隐藏 IMG、重名项或垃圾 payload，输出体积保持接近原 NPK。",
         "真实 IMG payload 默认字节级保留，游戏读取路径和显示内容保持原样。",
+        "Release 包中的主程序改为无控制台窗口 exe，包内不再附带 README.md。",
         "对单个 NPK 生成独立密钥和加密 manifest，拿到一个 NPK 的密钥不能还原另一个 NPK。",
         "提供 GUI、命令行 protect/verify/restore 和 smoke-test 入口。"
       ],
