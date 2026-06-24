@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager",
   "latest": {
-    "stable": "1.1.3"
+    "stable": "1.1.4"
   },
   "versions": [
     {
@@ -51,6 +51,19 @@
       "changelog": [
         "修正 skill_pages 内置数据更新位置，避免工具箱更新时保留旧数据。",
         "内置技能页现在随 bin/app 程序文件一起替换，确保更新后读取最新技能数据。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.4",
+      "channel": "stable",
+      "releaseDate": "2026-06-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager/releases/download/v1.1.4/dnf_skill_img_manager-1.1.4-win-x64.zip",
+      "sha256": "a33fac837d7188168cd29d84a0f9f858e2fa8505540d17c1c0df1db9777d550a",
+      "size": 168102502,
+      "changelog": [
+        "导出技能时跳过源 NPK 中缺失的 IMG 条目，继续导出其余可读取 IMG。",
+        "导出报告和日志会列出被跳过的缺失 IMG 路径。"
       ],
       "minToolboxVersion": "0.1.0"
     }
