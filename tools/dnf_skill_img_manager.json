@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager",
   "latest": {
-    "stable": "1.1.1"
+    "stable": "1.1.2"
   },
   "versions": [
     {
@@ -25,6 +25,19 @@
         "技能进化页补充基础技能和进化选项图标",
         "IMG 列表使用暗色样式并隐藏 NPK 文件名，动画预览默认暂停",
         "保留按技能整理 IMG 导出 NPK"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager/releases/download/v1.1.2/dnf_skill_img_manager-1.1.2-win-x64.zip",
+      "sha256": "7b3b731c5b296a3d63aacfec1aae5ce24c4891bce1e9541d3a3f06ec34805fda",
+      "size": 168043398,
+      "changelog": [
+        "更新内置 skill_pages 技能页数据。",
+        "同步技能页图标、导出报告和技能数据文件。"
       ],
       "minToolboxVersion": "0.1.0"
     }
