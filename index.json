@@ -99,6 +99,12 @@
       "manifestUrl": "tools/dnf_npk_hider.json"
     },
     {
+      "id": "dnf_npk_protector",
+      "name": "DNF NPK 加密保护工具",
+      "category": "资源工具",
+      "manifestUrl": "tools/dnf_npk_protector.json"
+    },
+    {
       "id": "dnf_img_coord_editor",
       "name": "DNF IMG 坐标编辑器",
       "category": "图像工具",

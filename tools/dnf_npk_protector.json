@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_npk_protector",
+  "name": "DNF NPK 加密保护工具",
+  "category": "资源工具",
+  "description": "生成游戏可读取、外部工具难以直接解析的受保护 NPK，并为每个 NPK 生成独立密钥。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-Protector",
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-Protector/releases/download/v1.0.0/dnf_npk_protector-1.0.0-win-x64.zip",
+      "sha256": "b4721c9737cdab583fa953dd85d3eef7d731303411b1666997464003989f08ea",
+      "size": 10978716,
+      "changelog": [
+        "参考加密补丁结构，改为小体积 exact duplicate 单空格目录项保护，默认不再堆大量隐藏 IMG。",
+        "真实 IMG payload 默认字节级保留，游戏读取路径和显示内容保持原样。",
+        "加入少量重复守护条目和共享 1x1 decoy payload，减少体积膨胀。",
+        "对单个 NPK 生成独立密钥和加密 manifest，拿到一个 NPK 的密钥不能还原另一个 NPK。",
+        "写入 declared size=16、重复尾随空格路径和乱序 payload，干扰常见外部 NPK/IMG 工具直接解析。",
+        "提供 GUI、命令行 protect/verify/restore 和 smoke-test 入口。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "NPK",
+    "IMG",
+    "保护",
+    "加密"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
