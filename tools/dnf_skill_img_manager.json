@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager",
   "latest": {
-    "stable": "1.1.2"
+    "stable": "1.1.3"
   },
   "versions": [
     {
@@ -38,6 +38,19 @@
       "changelog": [
         "更新内置 skill_pages 技能页数据。",
         "同步技能页图标、导出报告和技能数据文件。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.3",
+      "channel": "stable",
+      "releaseDate": "2026-06-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager/releases/download/v1.1.3/dnf_skill_img_manager-1.1.3-win-x64.zip",
+      "sha256": "edfe919f0f9a341c07acce33fb19667f395f217a9effa1f45530a56bd35aa6b6",
+      "size": 168102759,
+      "changelog": [
+        "修正 skill_pages 内置数据更新位置，避免工具箱更新时保留旧数据。",
+        "内置技能页现在随 bin/app 程序文件一起替换，确保更新后读取最新技能数据。"
       ],
       "minToolboxVersion": "0.1.0"
     }
