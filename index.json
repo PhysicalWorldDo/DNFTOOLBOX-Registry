@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.8",
+    "latestVersion": "0.1.9",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.8",
-    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.8/PhysicalWorldToolbox-0.1.8-win-x64.zip",
-    "sha256": "6931F794E6FA64CE1141F9C08D937CBBB91437C837E2C13A40B87EB22D80C78E",
-    "size": 45027063,
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.9",
+    "packageUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/download/v0.1.9/PhysicalWorldToolbox-0.1.9-win-x64.zip",
+    "sha256": "3cbe55f2823536f1670c528a9bc1e6d354dd604d1184a74193378052a66ecef2",
+    "size": 47260226,
     "changelog": [
-      "?? GitHub ?????????????????????????",
-      "???????????????????????????????",
-      "??????? downloads ???? cache ????????????? self-update ???"
+      "底部工具详情栏显示已安装版本、最新版本和可更新状态，并修复长标题遮挡版本选择框的问题。",
+      "安装、更新和工具箱自更新开始下载时会先重置进度条，并显示正在选择最快下载节点。",
+      "界面切换为星界紫金主题，使用紫色星云雾和白色法阵背景图。"
     ]
   },
   "tools": [
