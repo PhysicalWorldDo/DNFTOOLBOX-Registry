@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff",
   "latest": {
-    "stable": "1.0.11"
+    "stable": "1.0.12"
   },
   "versions": [
     {
@@ -158,6 +158,19 @@
         "RAD 压缩命令改为 binkc，并固定工作目录为 RAD 工具所在目录。"
       ],
       "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.12",
+      "channel": "stable",
+      "releaseDate": "2026-06-25",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Buff/releases/download/v1.0.12/dnf_palette_buff-1.0.12-win-x64.zip",
+      "sha256": "4549a6c13c775bfd33c7b6b00ccce4cf075b28009a631f9c1400af3b96b50ad4",
+      "size": 66480153,
+      "changelog": [
+        "修复 RAD 不支持中文路径导致 Error opening 安装目录的问题。",
+        "生成 BK2 前会把序列帧、files.lst 和 RAD 临时输出统一放入纯 ASCII 临时目录，成功后再复制到用户选择的输出路径。"
+      ],
+      "minToolboxVersion": "0.1.0"
     }
   ],
   "permissions": [],
@@ -168,6 +181,7 @@
   ],
   "status": "active",
   "blockedVersions": [
-    "1.0.9"
+    "1.0.9",
+    "1.0.11"
   ]
 }
