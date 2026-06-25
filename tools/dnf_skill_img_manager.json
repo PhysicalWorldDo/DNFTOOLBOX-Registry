@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager",
   "latest": {
-    "stable": "1.1.5"
+    "stable": "1.1.6"
   },
   "versions": [
     {
@@ -77,6 +77,19 @@
       "changelog": [
         "将内置技能 IMG 数据库 DLL 更新为 SkillImgDb.dll。",
         "打包时从源码目录携带本地 SkillImgDb.dll，不再依赖旧的 PvfSkillImgDb.dll 文件名。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.6",
+      "channel": "stable",
+      "releaseDate": "2026-06-25",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-IMG-Manager/releases/download/v1.1.6/dnf_skill_img_manager-1.1.6-win-x64.zip",
+      "sha256": "0b5d3834a60a0e30797cf78248ffc826d8509a161124b37c76df564f57c60985",
+      "size": 166362882,
+      "changelog": [
+        "导出时跳过缺失的源 NPK 文件，并在日志和导出报告中记录对应 IMG 路径。",
+        "保留 SkillImgDb.dll 数据库更新和本地 DLL 打包方式。"
       ],
       "minToolboxVersion": "0.1.0"
     }
