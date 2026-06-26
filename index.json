@@ -109,6 +109,12 @@
       "name": "DNF IMG 坐标编辑器",
       "category": "图像工具",
       "manifestUrl": "tools/dnf_img_coord_editor.json"
+    },
+    {
+      "id": "dnf_npk_img_compare",
+      "name": "DNF NPK 图像对照器",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_npk_img_compare.json"
     }
   ]
 }

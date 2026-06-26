@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_npk_img_compare",
+  "name": "DNF NPK 图像对照器",
+  "category": "图像工具",
+  "description": "对照补丁 NPK 与游戏原始 NPK 中的 IMG 帧图像。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-IMG-Compare",
+  "latest": {
+    "stable": "0.1.0"
+  },
+  "versions": [
+    {
+      "version": "0.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-26",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-IMG-Compare/releases/download/v0.1.0/dnf_npk_img_compare-0.1.0-win-x64.zip",
+      "sha256": "CF728886BAD225F9912A035893F88893EDB7CF4E9AEAFDA63DFD268BD8849DBC",
+      "size": 1677576,
+      "changelog": [
+        "首次发布 DNF NPK 图像对照器",
+        "支持读取单个补丁 NPK 或文件夹内 NPK，并按 ImagePacks2 映射规则定位游戏原始 NPK",
+        "支持补丁帧与游戏原图双侧预览、帧号切换、自动播放和 FPS 调节",
+        "播放时缓存并预取已解码帧，减少卡顿并提升暂停响应"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "NPK",
+    "IMG",
+    "帧",
+    "对照"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
