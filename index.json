@@ -115,6 +115,12 @@
       "name": "DNF NPK 图像对照器",
       "category": "图像工具",
       "manifestUrl": "tools/dnf_npk_img_compare.json"
+    },
+    {
+      "id": "dnf_avatar_studio",
+      "name": "DNF 时装套装预览器",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_avatar_studio.json"
     }
   ]
 }

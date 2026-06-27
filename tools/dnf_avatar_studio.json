@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_avatar_studio",
+  "name": "DNF 时装套装预览器",
+  "category": "图像工具",
+  "description": "使用内置时装索引读取图层并合成套装预览。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
+  "latest": {
+    "stable": "0.1.0"
+  },
+  "versions": [
+    {
+      "version": "0.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-27",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.1.0/dnf_avatar_studio-0.1.0-win-x64.zip",
+      "sha256": "AF5A2C999EAA0943434747E07732585A4F7451CAACC07353AB19E8946760C4C5",
+      "size": 25617168,
+      "changelog": [
+        "修复合法 1x1 DXT 帧导致的套装选择崩溃",
+        "修复套装列表无法纵向滚动的问题",
+        "使用内置加密数据 DLL 加载时装索引和图层映射"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "NPK",
+    "IMG",
+    "时装",
+    "套装"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
