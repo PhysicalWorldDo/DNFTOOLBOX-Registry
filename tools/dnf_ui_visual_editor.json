@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-UI-Visual-Editor",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.2"
   },
   "versions": [
     {
@@ -33,6 +33,19 @@
       "size": 44102465,
       "changelog": [
         "Rebuilt as executable release package."
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-UI-Visual-Editor/releases/download/v1.0.2/dnf_ui_visual_editor-1.0.2-win-x64.zip",
+      "sha256": "76761ac125c1a2071cb3e9e66afdd9fea5cdcdf4101a159d55ba0e3f7253e3bc",
+      "size": 63452970,
+      "changelog": [
+        "修复打包版缺少 pydnfex 导致点击加载 NPK 没反应的问题。",
+        "NPK 解析库缺失或文件加载失败时改为显示可见错误提示。"
       ],
       "minToolboxVersion": "0.1.0"
     }
