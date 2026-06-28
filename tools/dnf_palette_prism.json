@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism",
   "latest": {
-    "stable": "1.0.3"
+    "stable": "1.0.4"
   },
   "versions": [
     {
@@ -57,6 +57,18 @@
       "size": 33591988,
       "changelog": [
         "修复打包版多进程处理时重复打开窗口并导致进程池异常退出的问题。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.4",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism/releases/download/v1.0.4/dnf_palette_prism-1.0.4-win-x64.zip",
+      "sha256": "a67a51834011b0e0e9ebd8b59c746bdcbb8d1c61eb1ab9a480ede155257376c4",
+      "size": 33596494,
+      "changelog": [
+        "修复中文安装目录下调色处理无法写入 NPK，并加强临时目录清理安全保护。"
       ],
       "minToolboxVersion": "0.1.0"
     }
