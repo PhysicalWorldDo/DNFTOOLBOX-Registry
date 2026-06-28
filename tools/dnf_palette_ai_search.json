@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.6"
   },
   "versions": [
     {
@@ -33,6 +33,76 @@
       "size": 194012214,
       "changelog": [
         "Rebuilt as executable release package."
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.2/dnf_palette_ai_search-1.0.2-win-x64.zip",
+      "sha256": "80be6ec704b02cead9e77b22c752d8bf749a8ebf9fe44d15e039926229ac2d09",
+      "size": 202987978,
+      "changelog": [
+        "修复训练 exe 在 PyInstaller 打包后导入 PyTorch 失败的问题。",
+        "修复打包后 UI 启动器在 PyInstaller _internal 目录下找不到训练 exe 的问题。",
+        "增强训练日志输出编码兼容性。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.3",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.3/dnf_palette_ai_search-1.0.3-win-x64.zip",
+      "sha256": "84465d2a8a9dd802875dbd09e2222df16bc273689a782f6e1507add0d80ffdb0",
+      "size": 202991380,
+      "changelog": [
+        "停止训练改为优雅停止，保存已完成索引和增量进度。",
+        "下次启动会跳过已完成 NPK，避免从头重跑。",
+        "修复停止后训练进程可能不退出的问题。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.4",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.4/dnf_palette_ai_search-1.0.4-win-x64.zip",
+      "sha256": "6933afab6c3f2ef02110c81930b69f06fe1af89f1b2872aeac1a509d190893e3",
+      "size": 202991245,
+      "changelog": [
+        "停止训练时不再处理未落盘大缓存，避免长时间卡住。",
+        "CPU 特征提取拆成小块执行，提高停止响应速度。",
+        "停止时不写入未确认 file_tracking，避免下次误跳过未完整保存的 NPK。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.5",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.5/dnf_palette_ai_search-1.0.5-win-x64.zip",
+      "sha256": "87b075956f08b5d08a061ee2422f7bdbf0e6ad6669b40b97e2406f05fc5f9500",
+      "size": 203010075,
+      "changelog": [
+        "修复 FAISS 在中文输出路径下无法写入 .index 的问题。",
+        "搜索读取中文路径下的 .index 时自动走临时 ASCII 路径兼容层。",
+        "跨磁盘临时文件移动改为安全 fallback。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.6",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.6/dnf_palette_ai_search-1.0.6-win-x64.zip",
+      "sha256": "1af0a3054090cecffa3e3311f843a628fb5a84bb0f5402515298eecfcf26eae0",
+      "size": 203012238,
+      "changelog": [
+        "修复停止训练后已落盘 NPK 未写入 file_tracking，导致下次显示从头处理的问题。",
+        "调整 worker 输出顺序，确保 FILE_DONE 只在当前 NPK 图片块全部发出后发送。",
+        "停止保存时只保留仍在内存缓存中的未确认 NPK，其余已完成 NPK 下次会跳过。"
       ],
       "minToolboxVersion": "0.1.0"
     }
