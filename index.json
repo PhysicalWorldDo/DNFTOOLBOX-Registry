@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.10",
+    "latestVersion": "0.1.11",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.10",
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.11",
     "packageUrl": "",
-    "sha256": "8a49daf0d21b5b395ae5568f05290e3c6ef1a4089aaacd51c3b8a154bc4edca2",
-    "size": 47257928,
+    "sha256": "ced50cfea0e4f6d32c4820f25e1a50cfcd2561d44c300a38fe5f3da5272eec54",
+    "size": 47272424,
     "changelog": [
-      "紧急修复工具箱自更新逻辑：只替换更新包内文件，不再枚举、移动或删除安装目录中的其他文件。",
-      "防止工具箱直接放在桌面运行时，自更新误处理桌面文件。",
-      "旧版本请打开新版发布页手动下载 zip 替换，不要使用旧版本内置自更新。"
+      "启动时优先加载上次检查更新缓存的完整工具列表，未手动检查更新时也能显示已缓存的远程工具。",
+      "已安装工具缺少本地 tool.json 时仍会显示在工具箱中，避免本地工具从界面消失。",
+      "新增工具箱目录安全提示，建议放在独立英文目录中，避免与桌面、下载、游戏目录或个人文件混放。",
+      "工具箱更新信息继续不开放内置下载，用户可打开 Release 页面手动下载。"
     ]
   },
   "tools": [
