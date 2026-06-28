@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-IMG-Compare",
   "latest": {
-    "stable": "0.1.0"
+    "stable": "1.0.0"
   },
   "versions": [
     {
@@ -24,6 +24,21 @@
         "支持读取单个补丁 NPK 或文件夹内 NPK，并按 ImagePacks2 映射规则定位游戏原始 NPK",
         "支持补丁帧与游戏原图双侧预览、帧号切换、自动播放和 FPS 调节",
         "播放时缓存并预取已解码帧，减少卡顿并提升暂停响应"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-06-28",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-NPK-IMG-Compare/releases/download/v1.0.0/dnf_npk_img_compare-1.0.0-win-x64.zip",
+      "sha256": "AAB0C7DEEF544DA4185C90BF9961AC35F118060B8A8888A72C8CD9535456AE21",
+      "size": 1680437,
+      "changelog": [
+        "新增可拖拽工作区边界，支持调整源 NPK、IMG 列表、帧面板、预览区和左右预览比例",
+        "新增预览缩放功能，支持适应、常用百分比、自定义百分比和 Ctrl + 滚轮缩放",
+        "布局尺寸自动保存，下次打开保持上次工作区大小",
+        "同步应用版本到 1.0.0"
       ],
       "minToolboxVersion": "0.1.0"
     }
