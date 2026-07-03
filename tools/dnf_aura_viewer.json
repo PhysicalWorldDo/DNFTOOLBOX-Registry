@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_aura_viewer",
+  "name": "光环查看器",
+  "category": "图像工具",
+  "description": "预览 DNF 光环 ANI/NPK 效果，并支持导出 IMG 与合成结果。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer",
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-03",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer/releases/download/v1.0.0/dnf_aura_viewer-1.0.0-win-x64.zip",
+      "sha256": "8A867004C50D64A419FEE96EEA9D9C12879946C1AFBB74CD76258FCF3015A2FE",
+      "size": 135505953,
+      "changelog": [
+        "首次发布光环查看器 1.0.0。",
+        "支持读取加密光环数据包并预览 DNF 光环效果。",
+        "支持导出原始 IMG 与合成后的预览结果。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "NPK",
+    "ANI",
+    "IMG",
+    "光环"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}

@@ -122,6 +122,12 @@
       "name": "DNF 时装套装预览器",
       "category": "图像工具",
       "manifestUrl": "tools/dnf_avatar_studio.json"
+    },
+    {
+      "id": "dnf_aura_viewer",
+      "name": "光环查看器",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_aura_viewer.json"
     }
   ]
 }
