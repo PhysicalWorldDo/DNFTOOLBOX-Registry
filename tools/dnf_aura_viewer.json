@@ -9,9 +9,21 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer",
   "latest": {
-    "stable": "1.0.0"
+    "stable": "1.0.1"
   },
   "versions": [
+    {
+      "version": "1.0.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-04",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer/releases/download/v1.0.1/dnf_aura_viewer-1.0.1-win-x64.zip",
+      "sha256": "B402A8397BE2212C552F3413996AABE2926F899012FBA4C6736C96ECE42CE389",
+      "size": 135511479,
+      "changelog": [
+        "修复 Windows 用户名或导出文件名包含中文时，合成/原图导出 NPK 失败并提示 dnflib returned Io 的问题。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
     {
       "version": "1.0.0",
       "channel": "stable",
