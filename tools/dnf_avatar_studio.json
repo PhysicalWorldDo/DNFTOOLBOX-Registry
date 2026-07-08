@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "0.1.0"
+    "stable": "0.4.4"
   },
   "versions": [
     {
@@ -23,6 +23,117 @@
         "修复合法 1x1 DXT 帧导致的套装选择崩溃",
         "修复套装列表无法纵向滚动的问题",
         "使用内置加密数据 DLL 加载时装索引和图层映射"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.2.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.2.0/dnf_avatar_studio-0.2.0-win-x64.zip",
+      "sha256": "A7E0621AD4BE878C0D4D62B8A3BC6756F12AA5A2C4B770213EB5F378DFB91817",
+      "size": 25615978,
+      "changelog": [
+        "修正职业筛选中 imperialknight 显示为女蓝拳的问题，改为帝国骑士",
+        "移除左侧部位筛选，职业筛选改为两列对齐布局",
+        "新增侧栏、列表/预览、搭配区/结果列表、画布/图层表的拖动调整，并保存本地布局",
+        "预览和导出增加 IMG 候选路径兜底，兼容武器装扮前缀不一致的数据"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.3.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.3.1/dnf_avatar_studio-0.3.1-win-x64.zip",
+      "sha256": "D033807B77E4CB2937E9932794B8476880CFF026A3F6EB7321F2927862A43509",
+      "size": 25660979,
+      "changelog": [
+        "新增 DNF 助手右侧抽屉，可填写助手账号ID、HELPER_TOKEN 和查询用户ID",
+        "支持读取 DNF 助手角色列表与角色装扮，并按中文装扮名匹配到本地搭配",
+        "支持将读取到的角色装扮导入当前搭配并预览"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.3.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.3.2/dnf_avatar_studio-0.3.2-win-x64.zip",
+      "sha256": "961FB40F2604F396B4C8B9D630D7DFD2E48B22D2F6D2E5F91C99B6E51C65D855",
+      "size": 25660207,
+      "changelog": [
+        "修复 DNF 助手接口响应解密失败导致 invalid ciphertext length 的问题",
+        "兼容服务端 HTTP gzip 响应，并修正 XXTEA 解密状态更新",
+        "新增 DNF 助手解密回归测试，覆盖本地加密回环和 gzip 响应解析"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.0/dnf_avatar_studio-0.4.0-win-x64.zip",
+      "sha256": "95E5D8FAC574CD9BBE1570916C2C7D95A967ABFA90D6730E8EB3A2492FA7B53E",
+      "size": 25666360,
+      "changelog": [
+        "DNF 助手角色列表改为角色卡橱窗，选择角色时直接显示官方已渲染角色卡",
+        "凭证区默认折叠为摘要，编辑时才展开 HELPER_ID 和 HELPER_TOKEN",
+        "新增配置文件自动保存 NPK 目录、助手 ID、token 和查询用户ID"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.1/dnf_avatar_studio-0.4.1-win-x64.zip",
+      "sha256": "8A131776D06303ED3A50075D427FB5A7A7BC2CCC0B4D909A87280F8D6C6055BE",
+      "size": 25667304,
+      "changelog": [
+        "修复点击角色橱窗下方角色后橱窗滚动位置跳回顶部的问题",
+        "压缩角色橱窗高度并让显示装扮列表独立滚动，避免装扮信息被挤出视野"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.2/dnf_avatar_studio-0.4.2-win-x64.zip",
+      "sha256": "6BB761065C582956988DED775E3008C080BE0601C1E921C8A9A2B571F4E7AD80",
+      "size": 25668796,
+      "changelog": [
+        "将本地头发槽位显示名改为头部，并把 DNF 助手返回的头部装扮匹配到该槽位",
+        "修复 DNF 助手查询区读取按钮和凭证编辑按钮未对齐的问题",
+        "统一角色橱窗棋盘背景并禁用横向滚动，避免卡片内方格错位"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.3",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.3/dnf_avatar_studio-0.4.3-win-x64.zip",
+      "sha256": "69D2AC826A93CDA4435C7FD0DCBC4A7C18295D4E97F143A147F4BD3647497AB7",
+      "size": 25668754,
+      "changelog": [
+        "DNF 助手按所选角色职业优先匹配同名装扮，修复头部导入命中错误职业导致的显示偏移",
+        "角色橱窗移除卡片和图片内层重复边框，统一使用一层棋盘背景",
+        "修复 DNF 助手读取按钮高度和查询 ID 输入框未对齐的问题"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.4",
+      "channel": "stable",
+      "releaseDate": "2026-07-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.4/dnf_avatar_studio-0.4.4-win-x64.zip",
+      "sha256": "A241D7F89A482F55A8153128CDAD1EB1742BCA0490C012899EE40AFC413BAB77",
+      "size": 25682894,
+      "changelog": [
+        "合成导出 WebP 改为动态 WebP，按预览播放帧间隔逐帧写入动画",
+        "WebP 导出结果显示帧数和尺寸，并保留原有合成 NPK 导出"
       ],
       "minToolboxVersion": "0.1.0"
     }
