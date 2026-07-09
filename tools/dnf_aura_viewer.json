@@ -9,9 +9,22 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer",
   "latest": {
-    "stable": "1.0.2"
+    "stable": "1.0.3"
   },
   "versions": [
+    {
+      "version": "1.0.3",
+      "channel": "stable",
+      "releaseDate": "2026-07-09",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer/releases/download/v1.0.3/dnf_aura_viewer-1.0.3-win-x64.zip",
+      "sha256": "36B7792138BFFB9AF70B0F9106DF78B618AB27AFC4FF5ED234F2EECF5BA7DEE6",
+      "size": 132760336,
+      "changelog": [
+        "修复包含浮点 [HSLCOLOURIZE] 参数的光环 ANI 解析失败问题。",
+        "HSL 色相、饱和度、亮度链路改为浮点保存和渲染，避免小数被取整。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
     {
       "version": "1.0.2",
       "channel": "stable",
