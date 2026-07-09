@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "0.4.5"
+    "stable": "1.0.0"
   },
   "versions": [
     {
@@ -148,6 +148,20 @@
         "移除在线激活和本地授权检查，程序启动、加载、渲染、导出和 DNF 助手功能不再需要授权。",
         "程序窗口标题加入 Powered by 物理世界的欺骗 和 软件完全免费声明。",
         "安装包保留 Token 导出辅助工具的 Python 源码 extract_dnf_token.py，并移除旧授权文件。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-09",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.0.0/dnf_avatar_studio-1.0.0-win-x64.zip",
+      "sha256": "151264CE8798057301CAA1D267CF1703477A466F00ABA67D227F54CC361D2AA7",
+      "size": 40193734,
+      "changelog": [
+        "更新内置时装数据至 2026.7.09 摘要，扩大单件、套装和图层索引。",
+        "发布 1.0.0 稳定版安装包，包含新的加密 avatar_data.dll。",
+        "保留免费版启动、渲染、导出和 DNF 助手读取流程。"
       ],
       "minToolboxVersion": "0.1.0"
     }
