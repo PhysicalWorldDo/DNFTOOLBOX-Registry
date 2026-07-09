@@ -9,9 +9,23 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer",
   "latest": {
-    "stable": "1.0.1"
+    "stable": "1.0.2"
   },
   "versions": [
+    {
+      "version": "1.0.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-09",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Aura-Viewer/releases/download/v1.0.2/dnf_aura_viewer-1.0.2-win-x64.zip",
+      "sha256": "0A1F5FF9A6C2CB403A75C1F05EA853AE84745DBF38604F460FC80EC76439920E",
+      "size": 132757690,
+      "changelog": [
+        "合成图导出自动裁剪透明区域，并修正裁剪后的坐标对齐。",
+        "合成动图新增 WebP 格式导出支持。",
+        "更新内置光环数据 DLL。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
     {
       "version": "1.0.1",
       "channel": "stable",
