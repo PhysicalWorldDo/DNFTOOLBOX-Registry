@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.0.0"
+    "stable": "0.4.4"
   },
   "versions": [
     {
@@ -141,7 +141,7 @@
       "version": "0.4.5",
       "channel": "stable",
       "releaseDate": "2026-07-08",
-      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v0.4.5/dnf_avatar_studio-0.4.5-win-x64.zip",
+      "packageUrl": "",
       "sha256": "A300BBB273724EDEC11920AFA292CF8E7D8E45BE3FA787CA000065773F0F2A47",
       "size": 40037420,
       "changelog": [
@@ -155,7 +155,7 @@
       "version": "1.0.0",
       "channel": "stable",
       "releaseDate": "2026-07-09",
-      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.0.0/dnf_avatar_studio-1.0.0-win-x64.zip",
+      "packageUrl": "",
       "sha256": "151264CE8798057301CAA1D267CF1703477A466F00ABA67D227F54CC361D2AA7",
       "size": 40193734,
       "changelog": [
@@ -175,5 +175,8 @@
     "套装"
   ],
   "status": "active",
-  "blockedVersions": []
+  "blockedVersions": [
+    "0.4.5",
+    "1.0.0"
+  ]
 }
