@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "toolbox": {
-    "latestVersion": "0.1.11",
+    "latestVersion": "0.2.0",
     "minSupportedVersion": "0.1.0",
-    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.1.11",
+    "releaseUrl": "https://github.com/PhysicalWorldDo/DNFTOOLBOX/releases/tag/v0.2.0",
     "packageUrl": "",
-    "sha256": "ced50cfea0e4f6d32c4820f25e1a50cfcd2561d44c300a38fe5f3da5272eec54",
-    "size": 47272424,
+    "sha256": "9e108d39654d150cadfef0785b0d05e172e467cb31287f85477849ca3b84bb7e",
+    "size": 46887168,
     "changelog": [
-      "启动时优先加载上次检查更新缓存的完整工具列表，未手动检查更新时也能显示已缓存的远程工具。",
-      "已安装工具缺少本地 tool.json 时仍会显示在工具箱中，避免本地工具从界面消失。",
-      "新增工具箱目录安全提示，建议放在独立英文目录中，避免与桌面、下载、游戏目录或个人文件混放。",
-      "工具箱更新信息继续不开放内置下载，用户可打开 Release 页面手动下载。"
+      "新增独立的“安装与更新”列表页，集中展示可更新和未安装的工具，不改变原有分类图标页。",
+      "列表显示版本变化、安装包大小、发布日期和更新说明，支持单独安装、更新与全部更新。",
+      "强化工具 ID、下载文件名、ZIP 路径和链接目录校验，防止操作越出工具箱受管目录。",
+      "工具更新采用候选目录构建和失败回滚，保留已有 config、data 与安装状态。",
+      "工具箱自身更新包只允许替换 PhysicalWorldToolbox.exe，不处理其他目录或文件。",
+      "工具箱启动时不自动检查、不自动安装更新；内置下载继续关闭，可从 Release 页面手动下载。"
     ]
   },
   "tools": [
