@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search",
   "latest": {
-    "stable": "1.0.6"
+    "stable": "1.0.7"
   },
   "versions": [
     {
@@ -103,6 +103,18 @@
         "修复停止训练后已落盘 NPK 未写入 file_tracking，导致下次显示从头处理的问题。",
         "调整 worker 输出顺序，确保 FILE_DONE 只在当前 NPK 图片块全部发出后发送。",
         "停止保存时只保留仍在内存缓存中的未确认 NPK，其余已完成 NPK 下次会跳过。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.0.7",
+      "channel": "stable",
+      "releaseDate": "2026-07-10",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.0.7/dnf_palette_ai_search-1.0.7-win-x64.zip",
+      "sha256": "2b6d46f167a5df4e6b6637d9da4a29eee9bd47440cacfc5617d3607d5686a14d",
+      "size": 201890074,
+      "changelog": [
+        "修复打包布局，将 MobileNet 模型文件放入 PyInstaller _internal 目录。"
       ],
       "minToolboxVersion": "0.1.0"
     }
