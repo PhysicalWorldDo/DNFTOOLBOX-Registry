@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "dnf_avatar_studio",
-  "name": "DNF 时装套装预览器",
+  "name": "薛定谔的化裁间",
   "category": "图像工具",
   "description": "使用内置时装索引读取图层并合成套装预览。",
   "icon": "",
@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.2.0"
+    "stable": "1.2.1"
   },
   "versions": [
     {
@@ -189,6 +189,18 @@
         "新增同职业一键换装，提供双侧预览和部位分析，可生成独立补丁 NPK，不修改游戏原始文件。",
         "新增补丁生成进度提示，优化目录、NPK 与预览缓存，减少重复读取和界面卡顿。",
         "增强空部位、目标独有部位、Mask、帧坐标及资源路径校验，修复复杂套装、皮肤缺失和透明帧等换装异常。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.2.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-14",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.2.1/dnf_avatar_studio-1.2.1-win-x64.zip",
+      "sha256": "B44756BB0D6E0C5032C4BCFD181EA8181F438F9B684F9DADDBCC07FAE82FC00A",
+      "size": 26000463,
+      "changelog": [
+        "软件名称更新为“薛定谔的化裁间”。"
       ],
       "minToolboxVersion": "0.1.0"
     }
