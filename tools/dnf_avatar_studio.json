@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.2.1"
+    "stable": "1.2.2"
   },
   "versions": [
     {
@@ -201,6 +201,18 @@
       "size": 26000463,
       "changelog": [
         "软件名称更新为“薛定谔的化裁间”。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.2.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-15",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.2.2/dnf_avatar_studio-1.2.2-win-x64.zip",
+      "sha256": "D1FE1CF4504FD41BF80AAF376C958249B7B6F12DC0CD14652BA95DF908037CB8",
+      "size": 25999800,
+      "changelog": [
+        "修复一键换装页面仅保存一侧搭配时预览区域空白的问题；当前穿戴与目标外观现在可以独立显示预览。"
       ],
       "minToolboxVersion": "0.1.0"
     }
