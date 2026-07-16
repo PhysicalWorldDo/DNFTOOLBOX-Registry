@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.2.2"
+    "stable": "1.4.1"
   },
   "versions": [
     {
@@ -213,6 +213,21 @@
       "size": 25999800,
       "changelog": [
         "修复一键换装页面仅保存一侧搭配时预览区域空白的问题；当前穿戴与目标外观现在可以独立显示预览。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.4.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-16",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.4.1/dnf_avatar_studio-1.4.1-win-x64.zip",
+      "sha256": "50A05F24937F4EEC1005CC42D46475EA2AB65CF0848FAACBAD66C99822F934F4",
+      "size": 26535140,
+      "changelog": [
+        "首次推出时装染色功能与染色工作台，支持全部、多部位和单 IMG 三种编辑对象模式、固定双画布对照、完整目标树及可恢复的撤销重做流程。",
+        "新增 V2 直接色 IMG 染色与内置、自定义颜色预设，并让染色配方安全保存到时装橱窗及一键换装结果。",
+        "增强空调色板占位、Mask、多调色板、资源变更和透明像素处理，修复扫描回退、预览透明度及复杂染色渲染异常。",
+        "修复染色补丁导出目录选择与橱窗重染保存问题，并继续优化异步加载、缓存、关闭保护和异常恢复。"
       ],
       "minToolboxVersion": "0.1.0"
     }
