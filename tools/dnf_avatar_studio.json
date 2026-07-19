@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.4.1"
+    "stable": "1.4.2"
   },
   "versions": [
     {
@@ -228,6 +228,20 @@
         "新增 V2 直接色 IMG 染色与内置、自定义颜色预设，并让染色配方安全保存到时装橱窗及一键换装结果。",
         "增强空调色板占位、Mask、多调色板、资源变更和透明像素处理，修复扫描回退、预览透明度及复杂染色渲染异常。",
         "修复染色补丁导出目录选择与橱窗重染保存问题，并继续优化异步加载、缓存、关闭保护和异常恢复。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.4.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-19",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.4.2/dnf_avatar_studio-1.4.2-win-x64.zip",
+      "sha256": "E1F51C6F63AC017911434B46AC26415E9B0C0BE0B3EF0332318C9E3AD0F147AC",
+      "size": 26539217,
+      "changelog": [
+        "修复 V4 时装 Mask 在染色工作台中被误判为 V0、0 帧，导致无法正常染色的问题。",
+        "完善 V4 IMG 混合帧兼容：同一 IMG 内的调色板索引帧和 ARGB1555 直接像素帧现在均可正确解析、预览和染色。",
+        "优化异常资源状态提示，准确区分资源缺失与解析失败，并保留可读取的 IMG 版本和帧数。"
       ],
       "minToolboxVersion": "0.1.0"
     }
