@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.4.2"
+    "stable": "1.5.0"
   },
   "versions": [
     {
@@ -242,6 +242,20 @@
         "修复 V4 时装 Mask 在染色工作台中被误判为 V0、0 帧，导致无法正常染色的问题。",
         "完善 V4 IMG 混合帧兼容：同一 IMG 内的调色板索引帧和 ARGB1555 直接像素帧现在均可正确解析、预览和染色。",
         "优化异常资源状态提示，准确区分资源缺失与解析失败，并保留可读取的 IMG 版本和帧数。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.5.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-21",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.5.0/dnf_avatar_studio-1.5.0-win-x64.zip",
+      "sha256": "4F601B8FF7A6F62F017FDA7417B2C90120AA14222324D2A24437EBE1DC314097",
+      "size": 28277123,
+      "changelog": [
+        "新增职业级“单时装完整替代”特殊补丁：将目标整套外观写入所选载体，并透明化该职业其余时装 IMG，解决标准模式无法完整换装的问题。",
+        "重构一键换装图层规划：依据权威绘制顺序完成全局映射，修复跨部位、等价资源、同层级及真实帧数差异导致的错层、漏层和分析失败。",
+        "完善时装可见性与染色规则：正确处理隐藏装备、默认皮肤、Mask 和染色通道，避免遮挡层、Mask 或失效染色错误参与合成。"
       ],
       "minToolboxVersion": "0.1.0"
     }
