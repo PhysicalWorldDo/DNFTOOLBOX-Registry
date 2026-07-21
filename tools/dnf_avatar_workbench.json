@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Workbench",
   "latest": {
-    "stable": "0.3.0"
+    "stable": "0.3.1"
   },
   "versions": [
     {
@@ -17,14 +17,27 @@
       "channel": "stable",
       "releaseDate": "2026-07-21",
       "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Workbench/releases/download/v0.3.0/dnf_avatar_workbench-0.3.0-win-x64.zip",
-      "sha256": "77F1CAB2F74F4B73B02126568F346F7743CFE2266162F58EEC5751D51535EC67",
-      "size": 1763127,
+      "sha256": "6C6DA595CEA85130209A6A433061DF515BAFC9433C5FF5A6D8C8330E0F068B88",
+      "size": 1843512,
       "changelog": [
         "首次公开发布 DNF 时装拼合工作台。",
         "支持只读导入多个 NPK 或独立 IMG，并浏览元数据和可见帧缩略图。",
         "支持拼合队列、图层锁定与排序、自动时装层级、逐帧预览和播放速度调整。",
         "支持全局或单 IMG 染色、精确 RGBA 替换，以及普通 JSON 时装橱窗。",
         "支持导出单个多帧 IMG，或仅含一个拼合 IMG 条目的新 NPK，并执行回读校验。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.3.1",
+      "channel": "stable",
+      "releaseDate": "2026-07-21",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Workbench/releases/download/v0.3.1/dnf_avatar_workbench-0.3.1-win-x64.zip",
+      "sha256": "2497DD1D357A43E47302C1B33ECBAF514DE9BCBD9EFCD61E03A95B18F6EC671B",
+      "size": 1843154,
+      "changelog": [
+        "修复 Windows 免安装包缺少 WebView2Loader.dll 导致 GUI 无法启动的问题。",
+        "新增固定打包与依赖完整性校验，确保 EXE 和运行时 DLL 一并发布。"
       ],
       "minToolboxVersion": "0.1.0"
     }
