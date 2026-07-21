@@ -130,6 +130,12 @@
       "name": "光环查看器",
       "category": "图像工具",
       "manifestUrl": "tools/dnf_aura_viewer.json"
+    },
+    {
+      "id": "dnf_avatar_workbench",
+      "name": "DNF 时装拼合",
+      "category": "图像工具",
+      "manifestUrl": "tools/dnf_avatar_workbench.json"
     }
   ]
 }
