@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Workbench",
   "latest": {
-    "stable": "0.3.1"
+    "stable": "0.4.0"
   },
   "versions": [
     {
@@ -38,6 +38,20 @@
       "changelog": [
         "修复 Windows 免安装包缺少 WebView2Loader.dll 导致 GUI 无法启动的问题。",
         "新增固定打包与依赖完整性校验，确保 EXE 和运行时 DLL 一并发布。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "0.4.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Workbench/releases/download/v0.4.0/dnf_avatar_workbench-0.4.0-win-x64.zip",
+      "sha256": "53F23586CC8A0A85A0D573FC7A815A8D32CCF07090D61EDCD87C11D9FC307461",
+      "size": 1844403,
+      "changelog": [
+        "染色页新增可独立启用的线性减淡按钮，默认关闭并兼容旧项目。",
+        "采用与 DNFAuraplay 一致的黑底去除、发光 Alpha 转换和加法合成算法。",
+        "预览、逐帧拼合以及 IMG/NPK 导出统一应用线性减淡结果。"
       ],
       "minToolboxVersion": "0.1.0"
     }
