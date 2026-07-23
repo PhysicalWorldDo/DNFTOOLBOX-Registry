@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.5.0"
+    "stable": "1.6.0"
   },
   "versions": [
     {
@@ -256,6 +256,19 @@
         "新增职业级“单时装完整替代”特殊补丁：将目标整套外观写入所选载体，并透明化该职业其余时装 IMG，解决标准模式无法完整换装的问题。",
         "重构一键换装图层规划：依据权威绘制顺序完成全局映射，修复跨部位、等价资源、同层级及真实帧数差异导致的错层、漏层和分析失败。",
         "完善时装可见性与染色规则：正确处理隐藏装备、默认皮肤、Mask 和染色通道，避免遮挡层、Mask 或失效染色错误参与合成。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.6.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.6.0/dnf_avatar_studio-1.6.0-win-x64.zip",
+      "sha256": "0E1C2662A95D64D8173C8D18FDC5BC4B924D45A10CD60186B39F9F842FFA65F8",
+      "size": 29283737,
+      "changelog": [
+        "新增武器替换功能，支持生成武器换装补丁。",
+        "新增线性减淡处理，主要用于消除素材中的黑色像素和黑底干扰。"
       ],
       "minToolboxVersion": "0.1.0"
     }
