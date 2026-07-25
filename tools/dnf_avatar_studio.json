@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.6.0"
+    "stable": "1.6.2"
   },
   "versions": [
     {
@@ -279,6 +279,19 @@
       "packageUrl": "",
       "sha256": "01F889F12A1DC9C9315509FDF77EF0AC51AF165F60ADE5D98B0D3B486D87786B",
       "size": 403106011,
+      "changelog": [
+        "大幅优化内置时装数据加载与搜索速度",
+        "修复部分职业串图、错图、武器不匹配问题"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.6.2",
+      "channel": "stable",
+      "releaseDate": "2026-07-25",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.6.2/dnf_avatar_studio-1.6.2-win-x64.zip",
+      "sha256": "4A6988D3157BE7A0795B5422D78A4425AB730CAE6B24DC355D1CE30DD363A4CA",
+      "size": 410537171,
       "changelog": [
         "大幅优化内置时装数据加载与搜索速度",
         "修复部分职业串图、错图、武器不匹配问题"
