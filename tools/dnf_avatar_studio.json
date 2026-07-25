@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.6.2"
+    "stable": "1.6.3"
   },
   "versions": [
     {
@@ -295,6 +295,19 @@
       "changelog": [
         "大幅优化内置时装数据加载与搜索速度",
         "修复部分职业串图、错图、武器不匹配问题"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.6.3",
+      "channel": "stable",
+      "releaseDate": "2026-07-26",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.6.3/dnf_avatar_studio-1.6.3-win-x64.zip",
+      "sha256": "A9E0AAB19EA346F183B5F6414EE694CE3285AF8E9136350A8D4DAB183DBA8BD0",
+      "size": 410538439,
+      "changelog": [
+        "修复一键换装未选择皮肤时，头发等时装图层可能错误写入默认皮肤的问题。",
+        "调整皮肤载体映射规则：默认皮肤仅在当前未选择皮肤、目标明确选择皮肤时参与生成。"
       ],
       "minToolboxVersion": "0.1.0"
     }
