@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.6.3"
+    "stable": "1.7.0"
   },
   "versions": [
     {
@@ -308,6 +308,23 @@
       "changelog": [
         "修复一键换装未选择皮肤时，头发等时装图层可能错误写入默认皮肤的问题。",
         "调整皮肤载体映射规则：默认皮肤仅在当前未选择皮肤、目标明确选择皮肤时参与生成。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.7.0",
+      "channel": "stable",
+      "releaseDate": "2026-07-29",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.7.0/dnf_avatar_studio-1.7.0-win-x64.zip",
+      "sha256": "84558477CCB46406056E422E1DF57B06546D14ACC1B5E717CB4B7FB8E5387C2D",
+      "size": 410676395,
+      "changelog": [
+        "新增“图库模式”，可在“列表模式 / 图库模式”之间切换；原列表浏览、搭配区和完整预览功能保持不变。",
+        "支持按职业浏览套装图库，以及按“具体职业 + 具体部位”浏览单件图库；提供名称搜索、固定分页和卡片点击预览。",
+        "图库按照最终可见画面进行去重，综合皮肤、图层、调色、变体及可见性结果合并相同外观，并以“同图 ×N”标识。",
+        "新增按需缩略图生成和本地预览缓存；",
+        "新增“生成本职业套装”和“生成本职业全部单件”，支持后台生成、进度显示、暂停、继续和取消；完整成功后建立可复用的本地预览库。",
+        "统一主预览、时装橱窗、一键换装、染色工作台和图库的职业预览起始帧，改善鬼剑士（男）、神枪手（男/女）及暗夜使者的默认展示效果。"
       ],
       "minToolboxVersion": "0.1.0"
     }
