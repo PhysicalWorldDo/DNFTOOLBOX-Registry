@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.7.0"
+    "stable": "1.7.1"
   },
   "versions": [
     {
@@ -325,6 +325,20 @@
         "新增按需缩略图生成和本地预览缓存；",
         "新增“生成本职业套装”和“生成本职业全部单件”，支持后台生成、进度显示、暂停、继续和取消；完整成功后建立可复用的本地预览库。",
         "统一主预览、时装橱窗、一键换装、染色工作台和图库的职业预览起始帧，改善鬼剑士（男）、神枪手（男/女）及暗夜使者的默认展示效果。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.7.1",
+      "channel": "stable",
+      "releaseDate": "2026-08-02",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.7.1/dnf_avatar_studio-1.7.1-win-x64.zip",
+      "sha256": "97C053A6C6144E60E244318EAE2A93E654C7494B95F58D50F9F8F883F459ACCB",
+      "size": 437060549,
+      "changelog": [
+        "修复弓箭手武器装扮的形态识别与名称显示，正确区分 lbow、sbow、cbow、ebow、pbow 等变体，避免同名武器选错资源或串图。",
+        "修复“I-D 粉丝团应援棒武器装扮【lbow】”替换“伊卡洛斯之翼”失败的问题，兼容透明占位帧及不同画布、帧序列；其他武器和普通装扮的安全校验保持不变。",
+        "优化图库加载：普通图库仅预取当前页 N 的下一页 N+1，进入下一页后再继续预取，不再后台自动加载到末页；切页、筛选或模式切换后的旧请求不会回写，完整预览库仍保留快速翻页。"
       ],
       "minToolboxVersion": "0.1.0"
     }
