@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism",
   "latest": {
-    "stable": "1.0.4"
+    "stable": "1.1.0"
   },
   "versions": [
     {
@@ -69,6 +69,21 @@
       "size": 33596494,
       "changelog": [
         "修复中文安装目录下调色处理无法写入 NPK，并加强临时目录清理安全保护。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-08-02",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-Prism/releases/download/v1.1.0/dnf_palette_prism-1.1.0-win-x64.zip",
+      "sha256": "4f2a1991d9fe47abd1b29f7c570a72c4da2fb40de5e20a03d709fcf7c12b72fc",
+      "size": 33797661,
+      "changelog": [
+        "新增旧版 V1 NPK/IMG 的读取、预览、调色和保存支持。",
+        "支持 V1 ARGB1555、ARGB4444、ARGB8888、RAW/ZLIB 和链接帧，并保留坐标、画布及头部元数据。",
+        "V1 处理绕过 NpkPatcher，现有 V2 处理流程保持兼容。",
+        "修复根级 IMG 识别、无实际变化仍生成输出及预览资源释放问题。"
       ],
       "minToolboxVersion": "0.1.0"
     }
