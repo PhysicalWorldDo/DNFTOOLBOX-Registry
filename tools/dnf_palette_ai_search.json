@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search",
   "latest": {
-    "stable": "1.1.0"
+    "stable": "1.2.0"
   },
   "versions": [
     {
@@ -129,6 +129,20 @@
         "训练页新增 NPK 排除管理，支持关键字搜索、全选当前结果和多选。",
         "排除清单保存为 JSON，后续训练会在任务入队前自动跳过对应 NPK。",
         "加固多实例配置写入及 Windows 文件名和目录路径兼容性。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.2.0",
+      "channel": "stable",
+      "releaseDate": "2026-08-05",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Palette-AI-Search/releases/download/v1.2.0/dnf_palette_ai_search-1.2.0-win-x64.zip",
+      "sha256": "823e3f756f358b3a0c3fcd7d659d101484acfc5d16e14b915e56d3bd77bee940",
+      "size": 201918698,
+      "changelog": [
+        "文件变动分析阶段按 Workers 设置启用多进程，显著缩短大目录增量检查时间。",
+        "统一 Windows 追踪路径并迁移重复别名，避免旧指纹被随机选中。",
+        "已有图片记录改用 SQLite 索引精确查询，移除逐 NPK 全表扫描。"
       ],
       "minToolboxVersion": "0.1.0"
     }
