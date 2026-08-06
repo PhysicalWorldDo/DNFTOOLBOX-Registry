@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.7.1"
+    "stable": "1.8.0"
   },
   "versions": [
     {
@@ -339,6 +339,21 @@
         "修复弓箭手武器装扮的形态识别与名称显示，正确区分 lbow、sbow、cbow、ebow、pbow 等变体，避免同名武器选错资源或串图。",
         "修复“I-D 粉丝团应援棒武器装扮【lbow】”替换“伊卡洛斯之翼”失败的问题，兼容透明占位帧及不同画布、帧序列；其他武器和普通装扮的安全校验保持不变。",
         "优化图库加载：普通图库仅预取当前页 N 的下一页 N+1，进入下一页后再继续预取，不再后台自动加载到末页；切页、筛选或模式切换后的旧请求不会回写，完整预览库仍保留快速翻页。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.8.0",
+      "channel": "stable",
+      "releaseDate": "2026-08-06",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.8.0/dnf_avatar_studio-1.8.0-win-x64.zip",
+      "sha256": "C0A96CFB68A62B7F4689386DD2A1321C092D3DC325CB4E9FE0DB61BB77C3D589",
+      "size": 439327592,
+      "changelog": [
+        "新增“随机时装”页面，支持按 9 个非武器部位一次生成 48、72 或 96 套搭配，以高密度图库快速浏览；",
+        "主预览新增 25%～800% 缩放，支持按钮、Ctrl + 滚轮、恢复 100% 和适应窗口；",
+        "时装橱窗、时装染色、当前穿戴、目标外观及全部换装功能改为默认开放，不再需要隐藏口令；",
+        "更新内置时装库，补全一期至四期神器装扮的进图形态与特殊皮肤图层；图库摘要新增数据统计日期"
       ],
       "minToolboxVersion": "0.1.0"
     }
