@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.8.0"
+    "stable": "1.8.1"
   },
   "versions": [
     {
@@ -354,6 +354,21 @@
         "主预览新增 25%～800% 缩放，支持按钮、Ctrl + 滚轮、恢复 100% 和适应窗口；",
         "时装橱窗、时装染色、当前穿戴、目标外观及全部换装功能改为默认开放，不再需要隐藏口令；",
         "更新内置时装库，补全一期至四期神器装扮的进图形态与特殊皮肤图层；图库摘要新增数据统计日期"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.8.1",
+      "channel": "stable",
+      "releaseDate": "2026-08-08",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v1.8.1/dnf_avatar_studio-1.8.1-win-x64.zip",
+      "sha256": "0AF67CED8E3757EE7A25D3707431FDFF049789219DF2FA0547205AE3513085A9",
+      "size": 439479468,
+      "changelog": [
+        "修复部分大型神器装扮在换装分析正常后生成补丁失败的问题，已覆盖“山海御灵神器装扮（地下城形态）—圣职者（女）”。",
+        "提升一键换装对大型官方 IMG 的处理容量：单 IMG 上限提升至 256 MiB，单载体组及缓存上限提升至 512 MiB。",
+        "修复地下城形态独立皮肤在内置数据打包时可能重复补层的问题，准确保留显式身体 IMG 与调色板映射。",
+        "增加大型 IMG 与独立皮肤回归校验，提升复杂神器套装的换装生成稳定性。"
       ],
       "minToolboxVersion": "0.1.0"
     }
