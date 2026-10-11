@@ -24,6 +24,12 @@
       "manifestUrl": "tools/neople_video_codec_tool.json"
     },
     {
+      "id": "rep_player",
+      "name": "REP 播放器",
+      "category": "资源工具",
+      "manifestUrl": "tools/rep_player.json"
+    },
+    {
       "id": "dnf_music_detect",
       "name": "DNF 音乐检测工具",
       "category": "音频工具",
