@@ -267,7 +267,7 @@ def package_release(tool_id, tag, output_dir, upload=False):
         else:
             subprocess.run(["gh", "release", "upload", info["tagName"], str(output), "--repo", TOOLS[tool_id]["repo"]], check=True)
     write_json(Path(output_dir) / (tool_id + "-manifest.json"), manifest)
-    print(json.dumps(manifest["versions"][0], ensure_ascii=False))
+    print(json.dumps(manifest["versions"][0], ensure_ascii=True))
 
 
 def sync_registry(root):

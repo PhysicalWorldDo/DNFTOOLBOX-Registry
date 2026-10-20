@@ -1,4 +1,5 @@
 import importlib.util
+import io
 import json
 import os
 from pathlib import Path
@@ -137,6 +138,23 @@ def test_periodic_sync_does_not_redownload_unchanged_packages(tmp_path, monkeypa
         pytest.fail("unchanged releases must use metadata without downloading full binaries")
     monkeypatch.setattr(module, "download_asset", unexpected_download)
     module.sync_registry(tmp_path)
+
+
+def test_cli_report_prints_chinese_metadata_on_cp1252_console(tmp_path, monkeypatch):
+    module = integration()
+    original, _ = source_archive(tmp_path)
+    metadata = {"tagName": "v1.2.3", "publishedAt": "2026-10-20T00:00:00Z", "assets": []}
+    monkeypatch.setattr(module, "release_info", lambda *args: metadata)
+    monkeypatch.setattr(module, "download_asset", lambda *args: original)
+    buffer = io.BytesIO()
+    console = io.TextIOWrapper(buffer, encoding="cp1252")
+    monkeypatch.setattr(sys, "stdout", console)
+    module.package_release("dnf_skill_prism", "v1.2.3", tmp_path / "output")
+    console.flush()
+    emitted = json.loads(buffer.getvalue().decode("cp1252"))
+    assert emitted["changelog"][0].startswith("复用官方成品")
+    saved = json.loads((tmp_path / "output/dnf_skill_prism-manifest.json").read_text(encoding="utf-8"))
+    assert saved["versions"][0]["changelog"] == emitted["changelog"]
 
 
 @pytest.mark.skipif(os.name != "nt", reason="Windows launcher")
