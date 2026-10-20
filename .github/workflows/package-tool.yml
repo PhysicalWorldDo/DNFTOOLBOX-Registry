@@ -1,0 +1,35 @@
+name: Package published tool for toolbox
+on:
+  workflow_call:
+    inputs:
+      tool-id:
+        required: true
+        type: string
+      tag:
+        required: true
+        type: string
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: PhysicalWorldDo/DNFTOOLBOX-Registry
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare isolated packaging environment
+        shell: pwsh
+        run: python -m venv .venv
+      - name: Build and upload binary-only toolbox attachment
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TOOL_ID: ${{ inputs.tool-id }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          .venv/Scripts/python.exe scripts/toolbox_release.py package --tool-id "$env:TOOL_ID" --tag "$env:RELEASE_TAG" --output-dir dist --upload
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -5,11 +5,11 @@
   "category": "资源工具",
   "description": "离线播放 DNF REP 录像，支持逐帧查看、声音预览和 MOV、MP4、PNG 素材导出。",
   "icon": "",
-  "entry": "bin/app/rep_player.exe",
+  "entry": "bin/run.cmd",
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/rep-player",
   "latest": {
-    "stable": "1.1.3"
+    "stable": "1.1.5"
   },
   "versions": [
     {
@@ -24,6 +24,19 @@
         "复用 v1.1.3 原始播放器、FFmpeg 和许可证，未修改播放器源码或二进制。"
       ],
       "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "1.1.5",
+      "channel": "stable",
+      "releaseDate": "2026-10-20",
+      "packageUrl": "https://github.com/PhysicalWorldDo/rep-player/releases/download/v1.1.5/rep_player-1.1.5-win-x64-toolbox.zip",
+      "sha256": "f4a19be292229770ab5ce61f2698e2ed354f17ce9816b2fdc5059206371e7ddb",
+      "size": 56726460,
+      "changelog": [
+        "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
+        "原版更新说明：https://github.com/PhysicalWorldDo/rep-player/releases/tag/v1.1.5"
+      ],
+      "minToolboxVersion": "0.2.0"
     }
   ],
   "permissions": [],
@@ -35,5 +48,7 @@
     "素材导出"
   ],
   "status": "active",
-  "blockedVersions": []
+  "blockedVersions": [
+    "1.1.3"
+  ]
 }

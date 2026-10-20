@@ -142,6 +142,12 @@
       "name": "DNF 时装拼合",
       "category": "图像工具",
       "manifestUrl": "tools/dnf_avatar_workbench.json"
+    },
+    {
+      "id": "dnf_skill_prism",
+      "name": "技能染色工坊",
+      "category": "资源工具",
+      "manifestUrl": "tools/dnf_skill_prism.json"
     }
   ]
 }

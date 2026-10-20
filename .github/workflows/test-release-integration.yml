@@ -1,0 +1,30 @@
+name: Test release integration
+on:
+  push:
+    paths: ['scripts/**', 'tests/**', '.github/workflows/**']
+  pull_request:
+    paths: ['scripts/**', 'tests/**', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: PhysicalWorldDo/DNFTOOLBOX
+          path: toolbox-source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test packaging, Windows launcher and real installer
+        shell: pwsh
+        env:
+          TOOLBOX_SOURCE: ${{ github.workspace }}/toolbox-source
+        run: |
+          python -m venv .venv
+          .venv/Scripts/python.exe -m pip install pytest
+          .venv/Scripts/python.exe -m pytest tests/test_toolbox_release.py -q
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "dnf_skill_prism",
+  "name": "技能染色工坊",
+  "category": "资源工具",
+  "description": "REP 技能同步预览、配色预设、批量染色和补丁导出。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-Prism",
+  "latest": {
+    "stable": "1.1.2"
+  },
+  "versions": [
+    {
+      "version": "1.1.2",
+      "channel": "stable",
+      "releaseDate": "2026-10-20",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-Prism/releases/download/v1.1.2/dnf_skill_prism-1.1.2-win-x64-toolbox.zip",
+      "sha256": "7bfc36a8a48723f858fc3d885cf6484e8d44860411dc2980d702be88b1eee651",
+      "size": 63283294,
+      "changelog": [
+        "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
+        "原版更新说明：https://github.com/PhysicalWorldDo/DNF-Skill-Prism/releases/tag/v1.1.2"
+      ],
+      "minToolboxVersion": "0.2.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "REP"
+  ],
+  "status": "active",
+  "blockedVersions": []
+}
