@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/rep-player",
   "latest": {
-    "stable": "1.2.0"
+    "stable": "1.2.1"
   },
   "versions": [
     {
@@ -74,6 +74,19 @@
       "changelog": [
         "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
         "原版更新说明：https://github.com/PhysicalWorldDo/rep-player/releases/tag/v1.2.0"
+      ],
+      "minToolboxVersion": "0.2.0"
+    },
+    {
+      "version": "1.2.1",
+      "channel": "stable",
+      "releaseDate": "2026-10-23",
+      "packageUrl": "https://github.com/PhysicalWorldDo/rep-player/releases/download/v1.2.1/rep_player-1.2.1-win-x64-toolbox.zip",
+      "sha256": "5d6384b6ed8a01c87758da08eb97090309ac8156bcbd1627de5b23a78dcbcf6b",
+      "size": 58578205,
+      "changelog": [
+        "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
+        "原版更新说明：https://github.com/PhysicalWorldDo/rep-player/releases/tag/v1.2.1"
       ],
       "minToolboxVersion": "0.2.0"
     }
