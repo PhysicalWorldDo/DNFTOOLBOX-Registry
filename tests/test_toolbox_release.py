@@ -22,7 +22,8 @@ def integration():
 
 
 def source_archive(tmp_path, tool_id="dnf_skill_prism"):
-    exe = "dnf_skill_prism.exe" if tool_id == "dnf_skill_prism" else "rep_player.exe"
+    exe = {"dnf_skill_prism": "dnf_skill_prism.exe", "rep_player": "rep_player.exe",
+           "neople_video_player": "NeopleFrame.exe"}[tool_id]
     archive = tmp_path / "original.zip"
     payload = {exe: b"original executable", "resources/required.dll": b"original dependency",
                "resources/licenses/notice.txt": b"original license"}
@@ -32,7 +33,7 @@ def source_archive(tmp_path, tool_id="dnf_skill_prism"):
     return archive, payload
 
 
-@pytest.mark.parametrize("tool_id", ["dnf_skill_prism", "rep_player"])
+@pytest.mark.parametrize("tool_id", ["dnf_skill_prism", "rep_player", "neople_video_player"])
 def test_package_reuses_every_original_byte_and_has_toolbox_root(tmp_path, tool_id):
     module = integration()
     original, payload = source_archive(tmp_path, tool_id)
@@ -52,6 +53,20 @@ def test_package_reuses_every_original_byte_and_has_toolbox_root(tmp_path, tool_
     second = tmp_path / "second.zip"
     module.build_package(original, tool_id, "1.2.3", second, "2026-10-20", ["update"])
     assert second.read_bytes() == output.read_bytes(), "retries must reproduce the same attachment"
+
+
+def test_neople_manifest_registers_as_video_player(tmp_path):
+    module = integration()
+    original, _ = source_archive(tmp_path, "neople_video_player")
+    manifest = module.build_package(original, "neople_video_player", "1.0.0",
+                                    tmp_path / "neople.zip", "2026-10-25", ["首次发布。"])
+    assert manifest["projectUrl"] == "https://github.com/PhysicalWorldDo/neople-video-player"
+    assert manifest["iconSource"] == "bin/app/NeopleFrame.exe"
+    assert "BK2" in manifest["tags"] and "AVI" in manifest["tags"]
+    module.write_json(tmp_path / "registry/index.json", {"schemaVersion": 1, "tools": []})
+    assert module.register_manifest(tmp_path / "registry", manifest)
+    index = json.loads((tmp_path / "registry/index.json").read_text(encoding="utf-8"))
+    assert index["tools"][0]["manifestUrl"] == "tools/neople_video_player.json"
 
 
 @pytest.mark.parametrize("name", ["release/../bad", "release/runtime/settings.json"])

@@ -24,14 +24,14 @@ jobs:
         run: .venv/bin/python scripts/toolbox_release.py sync --root .
       - name: Commit registry changes
         run: |
-          if [ -z "$(git status --porcelain -- index.json tools/dnf_skill_prism.json tools/rep_player.json)" ]; then
+          if [ -z "$(git status --porcelain -- index.json tools/dnf_skill_prism.json tools/rep_player.json tools/neople_video_player.json)" ]; then
             echo 'No new tool releases'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- index.json tools/dnf_skill_prism.json tools/rep_player.json
+          git add -- index.json tools/dnf_skill_prism.json tools/rep_player.json tools/neople_video_player.json
           git diff --cached --check
-          git commit -m 'Sync published REP player and Skill Prism toolbox versions'
+          git commit -m 'Sync published tool versions'
           git pull --rebase origin main
           git push origin HEAD:main

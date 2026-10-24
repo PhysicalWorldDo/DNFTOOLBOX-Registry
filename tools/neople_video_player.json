@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "neople_video_player",
+  "name": "Neople Frame 视频播放器",
+  "category": "资源工具",
+  "description": "播放 BK2 / AVI 视频，支持逐帧、倍速、截图和完整视频导出。",
+  "icon": "",
+  "entry": "bin/run.cmd",
+  "needAdmin": false,
+  "projectUrl": "https://github.com/PhysicalWorldDo/neople-video-player",
+  "latest": {
+    "stable": "1.0.0"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-10-24",
+      "packageUrl": "https://github.com/PhysicalWorldDo/neople-video-player/releases/download/v1.0.0/neople_video_player-1.0.0-win-x64-toolbox.zip",
+      "sha256": "17de58f1cd711ff677027dc42230dd46a5356bd51f5f9c3eb90bd85354dc5d40",
+      "size": 56337227,
+      "changelog": [
+        "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
+        "原版更新说明：https://github.com/PhysicalWorldDo/neople-video-player/releases/tag/v1.0.0"
+      ],
+      "minToolboxVersion": "0.2.0"
+    }
+  ],
+  "permissions": [],
+  "tags": [
+    "DNF",
+    "BK2",
+    "AVI",
+    "视频",
+    "播放"
+  ],
+  "status": "active",
+  "blockedVersions": [],
+  "iconSource": "bin/app/NeopleFrame.exe"
+}

@@ -148,6 +148,12 @@
       "name": "技能染色工坊",
       "category": "资源工具",
       "manifestUrl": "tools/dnf_skill_prism.json"
+    },
+    {
+      "id": "neople_video_player",
+      "name": "Neople Frame 视频播放器",
+      "category": "资源工具",
+      "manifestUrl": "tools/neople_video_player.json"
     }
   ]
 }

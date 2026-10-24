@@ -17,6 +17,10 @@ TOOLS = {
     "rep_player": {"repo": "PhysicalWorldDo/rep-player", "name": "REP 播放器",
         "exe": "rep_player.exe", "asset": "rep-player-v{version}-windows-x64.zip",
         "description": "离线播放 REP 录像，支持逐帧、倍速和素材导出。"},
+    "neople_video_player": {"repo": "PhysicalWorldDo/neople-video-player", "name": "Neople Frame 视频播放器",
+        "exe": "NeopleFrame.exe", "asset": "neople-frame-v{version}-windows-x64.zip",
+        "description": "播放 BK2 / AVI 视频，支持逐帧、倍速、截图和完整视频导出。",
+        "tags": ["DNF", "BK2", "AVI", "视频", "播放"], "iconSource": "bin/app/NeopleFrame.exe"},
 }
 
 
@@ -42,13 +46,16 @@ def write_json(path, value):
 def tool_manifest(tool_id, version, release_date, changelog):
     tool = TOOLS[tool_id]
     version = stable_version(version)
-    return {"schemaVersion": 1, "id": tool_id, "name": tool["name"], "category": "资源工具",
+    manifest = {"schemaVersion": 1, "id": tool_id, "name": tool["name"], "category": "资源工具",
         "description": tool["description"], "icon": "", "entry": "bin/run.cmd", "needAdmin": False,
         "projectUrl": "https://github.com/" + tool["repo"], "latest": {"stable": version},
         "versions": [{"version": version, "channel": "stable", "releaseDate": release_date,
             "packageUrl": f'https://github.com/{tool["repo"]}/releases/download/v{version}/{package_name(tool_id, version)}',
             "sha256": "", "size": 0, "changelog": changelog, "minToolboxVersion": "0.2.0"}],
-        "permissions": [], "tags": ["DNF", "REP"], "status": "active", "blockedVersions": []}
+        "permissions": [], "tags": tool.get("tags", ["DNF", "REP"]), "status": "active", "blockedVersions": []}
+    if "iconSource" in tool:
+        manifest["iconSource"] = tool["iconSource"]
+    return manifest
 
 
 def launcher_script(executable):
