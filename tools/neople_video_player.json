@@ -17,11 +17,12 @@
       "channel": "stable",
       "releaseDate": "2026-10-24",
       "packageUrl": "https://github.com/PhysicalWorldDo/neople-video-player/releases/download/v1.0.0/neople_video_player-1.0.0-win-x64-toolbox.zip",
-      "sha256": "17de58f1cd711ff677027dc42230dd46a5356bd51f5f9c3eb90bd85354dc5d40",
-      "size": 56337227,
+      "sha256": "8ac70a97952045dff406b62840a392dbc883c7714cda9648b894fc65728260a9",
+      "size": 56369771,
       "changelog": [
         "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
-        "原版更新说明：https://github.com/PhysicalWorldDo/neople-video-player/releases/tag/v1.0.0"
+        "原版更新说明：https://github.com/PhysicalWorldDo/neople-video-player/releases/tag/v1.0.0",
+        "修正 1.0.0 运行包，保留下载补全功能。"
       ],
       "minToolboxVersion": "0.2.0"
     }
