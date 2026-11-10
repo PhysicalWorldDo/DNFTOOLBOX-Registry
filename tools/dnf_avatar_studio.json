@@ -3,13 +3,13 @@
   "id": "dnf_avatar_studio",
   "name": "薛定谔的化裁间",
   "category": "图像工具",
-  "description": "使用内置时装索引读取图层并合成套装预览。",
+  "description": "根据本地游戏资源建立时装索引，支持套装预览、染色和换装。",
   "icon": "",
   "entry": "bin/run.cmd",
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "1.8.1"
+    "stable": "2.0.0"
   },
   "versions": [
     {
@@ -369,6 +369,22 @@
         "提升一键换装对大型官方 IMG 的处理容量：单 IMG 上限提升至 256 MiB，单载体组及缓存上限提升至 512 MiB。",
         "修复地下城形态独立皮肤在内置数据打包时可能重复补层的问题，准确保留显式身体 IMG 与调色板映射。",
         "增加大型 IMG 与独立皮肤回归校验，提升复杂神器套装的换装生成稳定性。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "2.0.0",
+      "channel": "stable",
+      "releaseDate": "2026-11-11",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v2.0.0/dnf_avatar_studio-2.0.0-win-x64.zip",
+      "sha256": "DE4AB1892CA005BF2167949E86F62129ACE297CF3AC2CA3A05AB81E00CAD02C3",
+      "size": 7267588,
+      "changelog": [
+        "支持自行更新时装索引。 旧版时装库随工具版本更新。v2.0.0 中，首次使用或游戏更新后，在主界面点击「建立时装索引」，即可根据本地游戏资源生成或更新时装库。构建速度更快，并显示当前阶段、完成百分比和预计剩余时间。",
+        "一键换装：支持导入本地 IMG 文件作为换装目标。",
+        "时装染色：新增「线性减淡」混合模式。",
+        "图像预览：支持识别和预览 NPK 中的 BC7 图像。",
+        "补丁导出：导出 NPK 时直接覆盖同名文件。"
       ],
       "minToolboxVersion": "0.1.0"
     }
