@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "2.0.0"
+    "stable": "2.0.1"
   },
   "versions": [
     {
@@ -385,6 +385,18 @@
         "时装染色：新增「线性减淡」混合模式。",
         "图像预览：支持识别和预览 NPK 中的 BC7 图像。",
         "补丁导出：导出 NPK 时直接覆盖同名文件。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "2.0.1",
+      "channel": "stable",
+      "releaseDate": "2026-11-11",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v2.0.1/dnf_avatar_studio-2.0.1-win-x64.zip",
+      "sha256": "53BD3426C8988A4E64670BFCF24F5D26E343E7E325E3FE425D209FE57C974BA3",
+      "size": 7267945,
+      "changelog": [
+        "修复打开图库模式时闪退"
       ],
       "minToolboxVersion": "0.1.0"
     }
