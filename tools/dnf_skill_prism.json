@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-Prism",
   "latest": {
-    "stable": "1.1.6"
+    "stable": "1.2.0"
   },
   "versions": [
     {
@@ -74,6 +74,19 @@
       "changelog": [
         "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
         "原版更新说明：https://github.com/PhysicalWorldDo/DNF-Skill-Prism/releases/tag/v1.1.6"
+      ],
+      "minToolboxVersion": "0.2.0"
+    },
+    {
+      "version": "1.2.0",
+      "channel": "stable",
+      "releaseDate": "2026-11-12",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Skill-Prism/releases/download/v1.2.0/dnf_skill_prism-1.2.0-win-x64-toolbox.zip",
+      "sha256": "7e7d86fb3b954fdca5fa0da40770d3782d8ef6d0112fbe7814328d18bd0c1d67",
+      "size": 63320580,
+      "changelog": [
+        "复用官方成品；新增工具箱启动与用户配置、导出数据保存适配。",
+        "原版更新说明：https://github.com/PhysicalWorldDo/DNF-Skill-Prism/releases/tag/v1.2.0"
       ],
       "minToolboxVersion": "0.2.0"
     }
