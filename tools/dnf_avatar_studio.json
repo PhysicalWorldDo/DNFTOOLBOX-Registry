@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "2.0.2"
+    "stable": "2.0.3"
   },
   "versions": [
     {
@@ -409,6 +409,19 @@
       "size": 7270393,
       "changelog": [
         "优化时装索引状态显示，检查更新时不再误触发构建"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "2.0.3",
+      "channel": "stable",
+      "releaseDate": "2026-11-13",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v2.0.3/dnf_avatar_studio-2.0.3-win-x64.zip",
+      "sha256": "7A3C693D313DA34B9333BAF862CF722F63C5BFDD19F6A75376913117F730B16B",
+      "size": 7604909,
+      "changelog": [
+        "修复部分 V4/V6 调色板 IMG 的 Oodle 解码失败，预览和染色用量统计均可读取这些帧。",
+        "修复导入外部 IMG 后无法整套换装的问题。多调色板 IMG 可直接替换帧，换装分析会提示应用补丁后其他配色也会受影响。"
       ],
       "minToolboxVersion": "0.1.0"
     }
