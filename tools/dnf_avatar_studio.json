@@ -9,7 +9,7 @@
   "needAdmin": false,
   "projectUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio",
   "latest": {
-    "stable": "2.0.4"
+    "stable": "2.1.0"
   },
   "versions": [
     {
@@ -435,6 +435,20 @@
       "changelog": [
         "时装索引改存工具箱中本工具的 data/catalog。首次加载时自动迁移现有索引，保留原有数据，无需重建。",
         "修复索引和遥测队列清理可能通过 Windows 目录联接触及其他目录的问题。"
+      ],
+      "minToolboxVersion": "0.1.0"
+    },
+    {
+      "version": "2.1.0",
+      "channel": "stable",
+      "releaseDate": "2026-11-13",
+      "packageUrl": "https://github.com/PhysicalWorldDo/DNF-Avatar-Studio/releases/download/v2.1.0/dnf_avatar_studio-2.1.0-win-x64.zip",
+      "sha256": "748916622C25C41D6C40F4F490F2A2883D973BEBBEC74F658FE68049C1569865",
+      "size": 6567924,
+      "changelog": [
+        "Oodle 压缩资源改用所选游戏客户端自带的 `oo2core_9_win64.dll`，修复部分时装、图标和图集无法预览的问题。",
+        "修复 V5 直色图集、V2/V5 直色 Oodle 资源和高压缩比 zlib 帧的解码，支持此次发现的零字节透明占位帧。",
+        "在国服客户端的 16,471 个 NPK 中复扫了 41,637,240 帧，帧解码失败数由 50,485 降至 0。两个自定义 NPK 中的 23 个 IMG 读取错误仍会正常报告。"
       ],
       "minToolboxVersion": "0.1.0"
     }
